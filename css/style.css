@@ -17,22 +17,24 @@ h1 {
     font-size: 50px;
 }
 .row {
-    border: 2px solid green;
 }
 .card {
-    border: 1px solid red;
+    overflow: hidden;
     width: 20%;
     height: 250px;
     display: inline-block;
     background-image: url("../img/pattern.png");
     background-size: 150px;
     background-repeat:repeat;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
 }
 .card:hover {
     background: none;
     background-color: white;
 }
-img {
+.row img {
     display: none;
 }
 .card:hover img{
